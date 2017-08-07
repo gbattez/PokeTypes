@@ -18,7 +18,7 @@ public class EffectivenessCell extends Actor
     {
         this.setWidth(Main.V_WIDTH/18);
         this.texture = new Texture(Gdx.files.internal("multipliers.png"));
-        this.setHeight(texture.getHeight()*1.1f);
+        this.setHeight(texture.getHeight());
     }
 
     @Override

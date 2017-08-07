@@ -119,7 +119,7 @@ public class Main extends ApplicationAdapter
 
         this.shapeRenderer.setProjectionMatrix(camera.combined);
         this.shapeRenderer.begin(ShapeRenderer.ShapeType.Filled);
-        this.shapeRenderer.setColor(new Color(0.2f, 0.225f, 0.4f, 1));
+        this.shapeRenderer.setColor(new Color(0.35f, 0.4f, 0.4f, 1));
         this.shapeRenderer.rect(0, 0, camera.viewportWidth, camera.viewportHeight);
         this.shapeRenderer.end();
 
